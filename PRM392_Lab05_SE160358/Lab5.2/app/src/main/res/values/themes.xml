@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#6200EE</item> <!-- Vẫn là màu tím -->
+        <item name="colorPrimaryVariant">#FFFFFF</item>  <!-- Đổi màu trắng -->
+        <item name="android:statusBarColor">#FFFFFF</item>  <!-- Trắng -->
+        <item name="android:windowLightStatusBar">true</item>  <!-- Biểu tượng chuyển thành màu đen -->
+    </style>
+
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" />
+</resources>

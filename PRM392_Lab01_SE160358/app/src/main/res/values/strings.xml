@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PRM392_Lab01_SE160358</string>
+    <string name="linear_layout">linear Layout</string>
+    <string name="android">Android</string>
+    <string name="php">PHP</string>
+    <string name="sql">SQL</string>
+    <string name="python">PYTHON</string>
+
+
+</resources>

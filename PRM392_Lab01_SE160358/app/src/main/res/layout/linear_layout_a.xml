@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+
+    android:orientation="vertical">
+
+    <!-- Title TextView, không bị ảnh hưởng bởi weightSum -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#673AB7"
+        android:gravity="start|center_vertical"
+        android:padding="16dp"
+        android:text="@string/linear_layout"
+        android:textColor="#FAFAFA"
+        android:textSize="24sp" />
+
+    <!-- Các phần chia còn lại -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="#FFFF00"
+            android:text="@string/android"
+            android:textSize="35sp"
+            android:textColor="#FF0000"
+            android:gravity="start"
+            android:padding="1dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:background="#00BEFF"
+            android:gravity="start"
+            android:padding="1dp"
+            android:text="@string/php"
+            android:textColor="#AD0D43"
+            android:textSize="35sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:background="#008080"
+            android:gravity="start"
+            android:padding="1dp"
+            android:text="@string/sql"
+            android:textColor="#FFFF00"
+            android:textSize="35sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#FFEB3B"
+            android:gravity="start"
+            android:padding="1dp"
+            android:text="@string/python"
+            android:textColor="#009688"
+            android:textSize="35sp" />
+
+    </LinearLayout>
+</LinearLayout>

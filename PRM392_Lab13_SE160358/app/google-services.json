@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "759953652365",
+    "project_id": "prmlab-1cd84",
+    "storage_bucket": "prmlab-1cd84.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759953652365:android:23120dc4e490e7867a40c4",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8yQJPHggW2PV0bBJpDcmK9ozCqGafI4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
